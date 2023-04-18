@@ -17,6 +17,8 @@ public class Insurance : MonoBehaviour
     public TextMeshProUGUI descriptionText;
     public TextMeshProUGUI monthlyCostText;
     public TextMeshProUGUI yearlyCostText;
+
+    public string testingString;
     
     // Start is called before the first frame update
     void Start()
