@@ -29,4 +29,9 @@ public class Insurance : MonoBehaviour
     {
         
     }
+
+    public void DestroyObject()
+    {
+        Destroy(gameObject);
+    }
 }
