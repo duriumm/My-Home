@@ -8,14 +8,19 @@ public class PageSwitcher : MonoBehaviour
     public enum Page
     {
         ImagesPage,
-        TextPage
+        TextPage,
+        InsurancesPage
     }
     public List<GameObject> pagesList = new List<GameObject>();
     public Page currentPage = Page.ImagesPage;
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        foreach (Transform page in GameObject.Find("Pages").gameObject.transform)
+        {
+            pagesList.Add(page.gameObject);
+        }
     }
 
     // Update is called once per frame
