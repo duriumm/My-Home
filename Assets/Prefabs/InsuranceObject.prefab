@@ -206,6 +206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beffff3616d9b3548a1fcb11aeecbf5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentFileLocation: 
+  isAndroid: 0
 --- !u!1 &1782628228696908640
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.58431375}
+  m_Color: {r: 0.49803922, g: 0.5058824, b: 0.45490196, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

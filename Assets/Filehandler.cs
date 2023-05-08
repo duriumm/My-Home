@@ -11,6 +11,7 @@ public class FileHandler : MonoBehaviour
     public string currentFileLocation = "";
     public bool isAndroid = false;
 
+
     void Start()
     {
 
@@ -57,10 +58,6 @@ public class FileHandler : MonoBehaviour
 
                 Application.OpenURL(pathToFile);
             }
-
-
-
-
 
         }, fileTypes);
 
